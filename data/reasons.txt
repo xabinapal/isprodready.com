@@ -1,0 +1,25 @@
+Only if you like being on call 24/7
+Sure, if your definition of 'ready' is very flexible
+It's ready... to break spectacularly
+Ready for production? More like ready for therapy
+Define 'ready'... actually, don't do it
+Your QA team called, they're still laughing
+It'll work fine until someone uses it
+Production-ready is a state of mind
+Your tests are more broken than your code
+Sure, if you enjoy 3 AM debugging sessions
+Have you tried turning it off and leaving it off?
+Your code has more bugs than a camping trip
+It's production-ready if your users enjoy surprises
+Ready for production? More like ready for deprecation
+Your error handling is an error in itself
+Your app is like a house of cards in a hurricane
+It works on my machine, and only on my machine
+Your deployment strategy is 'hope and pray'
+Your monitoring consists of angry customer emails
+Your rollback plan is 'panic and revert everything'
+Your load testing involves one user: you
+Your security audit was 'we use HTTPS sometimes'
+Your documentation is a single TODO comment
+Your backup strategy is 'it's in the cloud somewhere'
+Your error messages are more cryptic than ancient hieroglyphs

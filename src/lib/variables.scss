@@ -1,0 +1,16 @@
+@use "sass:color";
+
+// Colors
+$primary-color: hsl(25, 80%, 50%);
+$secondary-color: color.change($primary-color, $hue: 40deg);
+$error-color: color.change($primary-color, $hue: 0deg);
+
+$text-primary: color.change(black, $lightness: 10%);
+$text-secondary: color.change(black, $lightness: 45%);
+
+$subtle-background: color.adjust($secondary-color, $alpha: -0.9);
+$subtle-border: color.adjust($secondary-color, $alpha: -0.5);
+
+// Fonts
+$font-sans: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+$font-monospace: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;

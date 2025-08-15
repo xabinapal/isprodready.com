@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+
+# SvelteKit build
+.svelte-kit/
+
+# Wrangler build
+.wrangler/
+
+# Lock files
+package-lock.json
+
+# Data files
+data/
+
+# Static assets
+static/
