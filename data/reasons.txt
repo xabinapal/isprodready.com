@@ -1,25 +1,90 @@
-Only if you like being on call 24/7
-Sure, if your definition of 'ready' is very flexible
-It's ready... to break spectacularly
-Ready for production? More like ready for therapy
-Define 'ready'... actually, don't do it
-Your QA team called, they're still laughing
-It'll work fine until someone uses it
-Production-ready is a state of mind
-Your tests are more broken than your code
-Sure, if you enjoy 3 AM debugging sessions
+Only if you like being on call 24/7.
+Sure, if your definition of "ready" is very flexible.
+It's ready... to break spectacularly.
+Ready for production? More like ready for therapy.
+Define "ready"... actually, don't do it.
+Your QA team called, they're still laughing.
+It'll work fine until someone uses it.
+Production-ready is a state of mind.
+Your tests are more broken than your code.
+Sure, if you enjoy 3 AM debugging sessions.
 Have you tried turning it off and leaving it off?
-Your code has more bugs than a camping trip
-It's production-ready if your users enjoy surprises
-Ready for production? More like ready for deprecation
-Your error handling is an error in itself
-Your app is like a house of cards in a hurricane
-It works on my machine, and only on my machine
-Your deployment strategy is 'hope and pray'
-Your monitoring consists of angry customer emails
-Your rollback plan is 'panic and revert everything'
-Your load testing involves one user: you
-Your security audit was 'we use HTTPS sometimes'
-Your documentation is a single TODO comment
-Your backup strategy is 'it's in the cloud somewhere'
-Your error messages are more cryptic than ancient hieroglyphs
+Your code has more bugs than a camping trip.
+It's production-ready if your users enjoy surprises.
+Ready for production? More like ready for deprecation.
+Your error handling is an error in itself.
+Your app is like a house of cards in a hurricane.
+It works on my machine, and only on my machine.
+Your deployment strategy is "hope and pray".
+Your monitoring consists of angry customer emails.
+Your rollback plan is "panic and revert everything".
+Your load testing involves one user: you.
+Your security audit was "we use HTTPS sometimes".
+Your documentation is a single TODO comment.
+Your backup strategy is "it's in the cloud somewhere".
+Your error messages are more cryptic than ancient hieroglyphs.
+Not ready for production unless your error budget is infinite.
+Use in production only if you enjoy spontaneous downtime.
+Production? We barely got it to compile.
+It runs perfectly... on my machine.
+Use in production if chaos is your brand strategy.
+Not suitable for production unless you hate your on-call engineer.
+Best used in production when you're about to quit your job.
+It's production-grade... if your grade is F.
+Works great until someone uses it.
+If uptime matters to you, look elsewhere.
+Use in production only during solar eclipses.
+Ready for production in the same way a banana is ready to be a USB drive.
+Wouldn’t trust this in production unless you hate sleep.
+Deploying this is like juggling chainsaws: fun until it's not.
+You can deploy this, but not without regrets.
+Missing documentation, tests, and a will to live.
+Works fine as long as no one uses it.
+Not ready unless your rollback strategy is crying.
+Deploy only if you've already written the postmortem.
+Use in production if your motto is "YOLO".
+Perfect for production if you enjoy firefighting as a hobby.
+Approved for production in parallel universes only.
+Not even the developer trusts it.
+Use in production only during Mercury retrograde.
+Still waiting on QA to stop screaming.
+Deployment not recommended unless you're into live debugging.
+Production use requires a prayer and a goat sacrifice.
+It runs on hope and deprecated libraries.
+Designed for environments with zero expectations.
+Deployment guide includes a map to the nearest panic room.
+Not ready for production unless you believe in miracles.
+The lead dev called it "probably fine".
+It compiles! That's the only success metric we used.
+Uptime SLA: ¯\_(ツ)_/¯.
+Ready for production if you enjoy monitoring graphs that look like seismographs.
+Release it and let natural selection do the rest.
+No one knows how it works... including us.
+Best used in production during planetary alignments.
+Only ready for production in an ironic sense.
+Our lawyers said we shouldn't release this... we did anyway.
+Fine for production as long as you don't click anything.
+It's basically duct tape and ambition.
+Requires 12 goats, a pentagram, and luck.
+Known bug: turns into a gremlin after midnight.
+Production is just a suggestion, right?
+Best deployed at 4am by someone already tired.
+Production-ready, assuming your AWS bill is already out of control.
+Production-safe as long as no one clicks the wrong Lambda trigger.
+Ready for production on any cloud provider brave enough to host it.
+Production readiness verified by a Slack poll with 5 votes and one shrug.
+It scales horizontally, diagonally, and eventually downward.
+Suitable for production if you're into writing SRE postmortems.
+Only ready for production if “ready” is a philosophical concept..
+Not suitable for production unless you enjoy Stack Overflow in real life.
+Runs fine, as long as the moon is full and Jenkins feels like cooperating.
+It passes all tests, mainly because we removed the failing ones.
+Perfect for production if your product owner is on vacation forever.
+Use it if your incident response strategy is "blame the intern".
+Only breaks when someone important is watching.
+May or may not invoke demons when compiled.
+Memory leaks so elegantly it's practically modern art.
+It's so modular, even we don't know what each part does.
+Ready for prod if "prod" is a local Docker container.
+Built with the Twelve-Factor App methodology. Only followed one.
+100% test coverage. 0% test relevance.
