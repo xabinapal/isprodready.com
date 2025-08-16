@@ -17,6 +17,9 @@
 	<meta name="author" content={env["ISPRODREADY_META_AUTHOR"]} />
 	<meta name="keywords" content={env["ISPRODREADY_META_KEYWORDS"]} />
 	<meta name="theme-color" content={env["ISPRODREADY_META_THEME_COLOR"]} />
+
+	<!-- Vendor Tags -->
+	<meta name="apple-mobile-web-app-title" content={env["ISPRODREADY_META_TITLE"]} />
 	<meta name="msapplication-TileColor" content={env["ISPRODREADY_META_THEME_COLOR"]} />
 
 	<!-- Open Graph / Facebook -->
@@ -38,15 +41,19 @@
 	<link rel="canonical" href={env["ISPRODREADY_BASE_URL"]} />
 
 	<!-- Favicons -->
-	<link rel="icon" type="image/svg+xml" href="{env['ISPRODREADY_BASE_URL']}/logo.svg" />
-	<link rel="mask-icon" href="{env['ISPRODREADY_BASE_URL']}/logo.svg" color={env["ISPRODREADY_META_THEME_COLOR"]} />
-	<link rel="apple-touch-icon" href="{env['ISPRODREADY_BASE_URL']}/logo.svg" sizes="180x180" />
+	<link rel="icon" type="image/svg+xml" href="{env['ISPRODREADY_BASE_URL']}/favicon.svg" sizes="any" />
+	<link rel="icon" type="image/png" href="{env['ISPRODREADY_BASE_URL']}/favicon-96.png" sizes="96x96" />
+	<link rel="icon" href="{env['ISPRODREADY_BASE_URL']}/favicon.ico" sizes="32x32" />
+	<link rel="apple-touch-icon" href="{env['ISPRODREADY_BASE_URL']}/icon-180.png" sizes="180x180" />
+
+	<!-- Manifest -->
+	<link rel="manifest" href="{env['ISPRODREADY_BASE_URL']}/site.webmanifest" />
 </svelte:head>
 
 <div class="container">
 	<header class="content">
 		<div class="logo-section">
-			<img src="/logo.svg" alt="IsProdReady.com Logo" />
+			<img src="{env['ISPRODREADY_BASE_URL']}/logo.svg" alt="IsProdReady.com Logo" />
 		</div>
 
 		<div class="title-section">
@@ -54,7 +61,7 @@
 			<p class="tagline">The brutal truth about your product</p>
 			<div class="sponsor-section">
 				<a class="button button-secondary" href={env["ISPRODREADY_KOFI_URL"]} target="_blank">
-					<img class="kofi-icon" src="/kofi.png" alt="" />
+					<img class="kofi-icon" src="{env['ISPRODREADY_BASE_URL']}/kofi.png" alt="" />
 					Support me on Ko-Fi
 				</a>
 			</div>
