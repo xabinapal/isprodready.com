@@ -62,16 +62,16 @@
 	</div>
 
 	<div class="section button-section">
-		<button class="button button-primary" disabled={isLoading} onclick={fetchReason}> Get another opinion </button>
+		<button class="button button-primary" disabled={isLoading} onclick={fetchReason}>Get another opinion</button>
 	</div>
 </main>
 
 <section class="content">
 	<div class="section api-info-section">
 		<h3>Want to integrate this wisdom into your CI/CD?</h3>
-		<p class="api-description">
+		<p>
 			Add spice to your pipeline with
-			<span class="code"><a class="link" href="{ISPRODREADY_BASE_URL}/no">{ISPRODREADY_BASE_URL}/no</a></span>
+			<a class="link code" href="{ISPRODREADY_BASE_URL}/no">{ISPRODREADY_BASE_URL}/no</a>
 		</p>
 		<p class="secondary">Because let's be honest, that's probably the answer...</p>
 	</div>
@@ -82,7 +82,7 @@
 			<br /><br />
 			$ curl {ISPRODREADY_BASE_URL}/no
 			<br />
-			{`{"reason": "Sure, if you enjoy 3 AM debugging sessions"}`}
+			{`{"reason": "Sure, if you enjoy 3 AM debugging sessions."}`}
 		</code>
 	</div>
 </section>
@@ -104,7 +104,7 @@
 
 		width: 100%;
 		min-height: 10rem;
-		padding: 2rem;
+		padding: 1.5rem;
 
 		line-height: 1.5;
 		color: $text-primary;
@@ -116,7 +116,7 @@
 	}
 
 	.reason-text {
-		font-size: 1.5rem;
+		font-size: 1.25rem;
 		font-weight: 600;
 	}
 
@@ -127,8 +127,28 @@
 		animation: pulse 0.75s infinite;
 	}
 
+	@keyframes pulse {
+		0%,
+		100% {
+			opacity: 1;
+		}
+		50% {
+			opacity: 0.5;
+		}
+	}
+
 	.reason-error {
 		font-style: italic;
 		color: $error-color;
+	}
+
+	@media (min-width: 768px) {
+		.reason-section {
+			padding: 2rem;
+		}
+
+		.reason-text {
+			font-size: 1.5rem;
+		}
 	}
 </style>

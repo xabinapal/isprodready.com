@@ -76,7 +76,6 @@
 	:global {
 		// Base
 		:root {
-			font-family: $font-sans;
 			font-weight: 400;
 			font-size: 16px;
 			line-height: 1.6;
@@ -92,11 +91,8 @@
 			margin: 0;
 			padding: 0;
 
+			font-family: $font-sans;
 			color: $text-primary;
-		}
-
-		body {
-			background: $primary-color;
 		}
 
 		h1 {
@@ -113,7 +109,7 @@
 		}
 
 		h3 {
-			font-size: 1.5rem;
+			font-size: 1.25rem;
 			font-weight: 700;
 			text-align: center;
 			color: $text-primary;
@@ -125,7 +121,7 @@
 			padding: 1rem;
 
 			font-family: $font-monospace;
-			font-size: 0.875rem;
+			font-size: 0.75rem;
 			line-height: 1.5;
 			text-align: left;
 			color: #f9fafb;
@@ -244,9 +240,21 @@
 		}
 
 		@media (min-width: 768px) {
-			body {
+			:root {
 				background: linear-gradient(135deg, $secondary-color 0%, $secondary-color 25%, $primary-color 75%, $primary-color 100%);
 				background-attachment: fixed;
+			}
+
+			h1 {
+				font-size: 3.5rem;
+			}
+
+			h3 {
+				font-size: 1.5rem;
+			}
+
+			code {
+				font-size: 0.875rem;
 			}
 		}
 	}
@@ -269,7 +277,7 @@
 	}
 
 	.tagline {
-		font-size: 1.125rem;
+		font-size: 1rem;
 		font-weight: 500;
 		color: $text-secondary;
 	}
@@ -330,25 +338,14 @@
 		color: rgba(255, 255, 255, 1) !important;
 	}
 
-	/* Animations */
-	@keyframes pulse {
-		0%,
-		100% {
-			opacity: 1;
-		}
-		50% {
-			opacity: 0.5;
-		}
-	}
-
 	@media (min-width: 768px) {
-		h1 {
-			font-size: 3.5rem;
-		}
-
 		header.content {
 			flex-direction: row;
 			gap: 2rem;
+		}
+
+		.tagline {
+			font-size: 1.125rem;
 		}
 	}
 </style>

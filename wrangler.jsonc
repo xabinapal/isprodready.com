@@ -1,5 +1,5 @@
 {
-	"name": "isprodready-com",
+	"name": "isprodready",
 	"compatibility_date": "2025-08-15",
 	"compatibility_flags": ["nodejs_compat"],
 	"observability": { "enabled": true },
