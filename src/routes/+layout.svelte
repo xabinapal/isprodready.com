@@ -246,7 +246,7 @@
 			box-shadow: 0 2px 4px color.adjust($error-color, $alpha: -0.8);
 		}
 
-		@media (min-width: 768px) {
+		@media (min-width: 768px), (orientation: landscape) {
 			:root {
 				background: linear-gradient(135deg, $secondary-color 0%, $secondary-color 25%, $primary-color 75%, $primary-color 100%);
 				background-attachment: fixed;
@@ -345,7 +345,7 @@
 		color: rgba(255, 255, 255, 1) !important;
 	}
 
-	@media (min-width: 768px) {
+	@media (min-width: 768px), (orientation: landscape) {
 		header.content {
 			flex-direction: row;
 			gap: 2rem;

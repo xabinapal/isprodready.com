@@ -142,7 +142,7 @@
 		color: $error-color;
 	}
 
-	@media (min-width: 768px) {
+	@media (min-width: 768px), (orientation: landscape) {
 		.reason-section {
 			padding: 2rem;
 		}
