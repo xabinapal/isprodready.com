@@ -53,7 +53,7 @@
 			<h1 class="primary">IsProdReady<span class="accent">.com</span></h1>
 			<p class="tagline">The brutal truth about your product</p>
 			<div class="sponsor-section">
-				<a class="button button-secondary" href={env["ISPRODREADY_KOFI_URL"]}>
+				<a class="button button-secondary" href={env["ISPRODREADY_KOFI_URL"]} target="_blank">
 					<img class="kofi-icon" src="/kofi.png" alt="" />
 					Support me on Ko-Fi
 				</a>
@@ -64,7 +64,7 @@
 	{@render children()}
 
 	<footer>
-		<p>IsProdReady.com - Star me on <a class="link" href={env["ISPRODREADY_GITHUB_URL"]}>GitHub</a>!</p>
+		<p>IsProdReady.com - Star me on <a class="link" href={env["ISPRODREADY_GITHUB_URL"]} target="_blank">GitHub</a>!</p>
 		<p>Keeping developers humble since today</p>
 	</footer>
 </div>
