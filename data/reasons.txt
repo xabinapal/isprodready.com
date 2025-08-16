@@ -35,7 +35,7 @@ Works great until someone uses it.
 If uptime matters to you, look elsewhere.
 Use in production only during solar eclipses.
 Ready for production in the same way a banana is ready to be a USB drive.
-Wouldn’t trust this in production unless you hate sleep.
+Wouldn't trust this in production unless you hate sleep.
 Deploying this is like juggling chainsaws: fun until it's not.
 You can deploy this, but not without regrets.
 Missing documentation, tests, and a will to live.
@@ -75,7 +75,7 @@ Ready for production on any cloud provider brave enough to host it.
 Production readiness verified by a Slack poll with 5 votes and one shrug.
 It scales horizontally, diagonally, and eventually downward.
 Suitable for production if you're into writing SRE postmortems.
-Only ready for production if “ready” is a philosophical concept..
+Only ready for production if "ready" is a philosophical concept..
 Not suitable for production unless you enjoy Stack Overflow in real life.
 Runs fine, as long as the moon is full and Jenkins feels like cooperating.
 It passes all tests, mainly because we removed the failing ones.
@@ -88,3 +88,123 @@ It's so modular, even we don't know what each part does.
 Ready for prod if "prod" is a local Docker container.
 Built with the Twelve-Factor App methodology. Only followed one.
 100% test coverage. 0% test relevance.
+It technically runs. So does a chicken without a head.
+Written during a caffeine rush and deployed during a nervous breakdown.
+The documentation is a link to a Medium post that was deleted.
+Only deploy if your rollback strategy is "new job".
+Deploying this counts as stress testing... for humans.
+Deploy on a Friday if you really want to feel something.
+The roadmap is a treasure map. X marks where it crashed.
+Error logs are just ASCII shrug faces.
+If observability is your thing, this will give you plenty to observe.
+This project helped us learn. Mostly what not to do.
+Health check endpoint returns "nah".
+Deployment instructions include "pray" as a step.
+The changelog includes the word "oops" 37 times.
+It only fails when people are watching.
+It just works™. Acccording to no one.
+The CI passed. That doesn't mean anything, but it feels good.
+It handles traffic like a deer handles headlights.
+It wants to be production-ready. We just haven't had the heart to tell it the truth.
+Not designed for high availability. Or low availability. Or any availability really.
+This codebase is why the QA team drinks.
+Requires Node.js. Specific version? Who knows.
+Observability? You'll observe a lot of red.
+This system is fault-tolerant. It tolerates having lots of faults.
+Designed with continuous integration, continuous delivery and continuous disappointment.
+Integration tested against our own expectations. It failed.
+Designed with SREs in mind. Specifically, to ruin their weekends.
+You may experience some minor issues. And major ones.
+Runs flawlessly on Windows ME.
+Compatible with Windows 95, incompatible with reality.
+Runs fine until Windows Update decides otherwise.
+Production-safe, assuming your on-call SRE is also an exorcist.
+Trained with reinforcement learning: it reinforced our disappointment.
+Production-grade if your production is a high school computer lab.
+Developed with ChatGPT. The AI keeps telling us to give up.
+It passes all unit tests in Visual Studio, then bluescreens.
+Production-ready in the same sense that Vista was ready.
+Ready for production if that means a PowerPoint demo.
+Built for the cloud. Still thinks dial-up is a thing.
+Production-ready if your Web3 wallet accepts disappointment as currency.
+Runs beautifully on Internet Explorer 6.
+It's serverless! Except for the dozen servers you'll manage anyway.
+The Dockerfile is 800 lines long and still doesn't build.
+Blockchain-integrated: every bug is now immutable.
+Your Terraform plan says "good luck".
+The Helm chart looks like an abstract painting.
+Your S3 bucket permissions are now a social experiment.
+The PostgreSQL schema was designed by an intern. During his finals week.
+Runs faster in staging because nobody uses it.
+Nginx config written by a poet. Nothing makes sense.
+Production-ready, if that means a Raspberry Pi in your garage.
+Supports multicloud. Breaks in all of them equally.
+This ML pipeline needs more GPU than OpenAI.
+Production-ready if console.log counts as testing.
+Our TypeScript types are just any, everywhere.
+You'll find unit tests in the tests/ folder. It's empty.
+Code coverage is technically infinite, since there are no tests.
+Commit messages are just "fix" repeated 200 times.
+We tried functional programming. It functionally broke.
+The package.json has 500 dependencies and one prayer.
+Our Python code is PEP8 compliant... if you ignore it.
+The code style is "whatever VSCode auto-format does".
+Only works with Node 12. Or maybe Node 10. Definitely not Node 16.
+Ready for production if you don't mind runtime exceptions as features.
+Built with Rust. Still manages to crash, but safely.
+All commits are signed... with random emojis.
+Production-ready. Assuming you never use the dark mode toggle.
+Documentation written in Markdown. Half in Klingon.
+Bug reports are closed automatically if we can't reproduce them.
+The CI pipeline is literally "npm run maybe".
+Unit tests are commented out to improve build speed.
+Production safety certified by our rubber duck.
+Deploy on Kubernetes and watch your pods achieve inner chaos.
+The Git history is a crime scene.
+Documentation is just a folder full of memes.
+The API follows REST. Rest in peace.
+Production-safe, if you define safe as "hope and duct tape".
+Production-tested in a dream I had once.
+Debugging requires a ouija board.
+Deploy on Friday if you want HR to know your name.
+Ready for prod in the same way Windows Vista was ready.
+Yes, but the Jenkins pipeline has Stockholm syndrome.
+The system is fault-tolerant. It tolerates being faulty.
+The Docker container is 5GB of sadness.
+The CI pipeline is a choose-your-own-adventure book.
+Only crashes when someone important is watching.
+Production-ready if segfaults are a feature.
+The entire architecture was designed on a napkin. We lost the napkin.
+Deploy this if your rollback plan involves crying in the bathroom.
+Deploy it if you enjoy Slack channels named #incidents.
+Our ML model predicts outages. Accurately.
+It uses gRPC. The "g" stands for "guess".
+The UX designers cry everytime they see it.
+Uptime is measured in coffee cups per hour.
+Our incident response plan is "blame DNS".
+Production-tested during a hackathon at 3am.
+The backend is spaghetti. The frontend is lasagna.
+Production-ready if your servers still boot from floppy disks.
+Runs flawlessly on a Commodore 64.
+Documentation available only on VHS.
+Coded in COBOL by someone who retired in 1989.
+Production-safe unless Y2K comes again.
+Ready for production on Windows 3.1, not beyond.
+Production support available via Usenet.
+Ready for production if you have 3 healing potions.
+Incident response plan: send in the paladin.
+Every bug respawns in a dungeon near prod.
+Our quality metric is "vibes per quarter".
+The bug tracker is a Magic 8-Ball.
+We tested it on a toaster. It caught fire.
+Incident response requires a Necronomicon and two brave interns.
+Production-safe if you have the strength of Gondor's on-call team.
+Logs are written in Valyrian. No translations provided.
+The system is as stable as Anakin's emotions.
+Incident response handled by stormtroopers. Expect zero accuracy.
+Every commit message is just ASCII graffiti.
+Our dev team meets exclusively in arcades.
+Rollback plan: delete System32.
+Monitoring dashboard is a Winamp visualizer.
+Incident response powered by AOL Instant Messenger.
+Our SLA is written on a business card with a circle, triangle, and square.
