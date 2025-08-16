@@ -208,3 +208,26 @@ Rollback plan: delete System32.
 Monitoring dashboard is a Winamp visualizer.
 Incident response powered by AOL Instant Messenger.
 Our SLA is written on a business card with a circle, triangle, and square.
+Error handling outsourced to a Black Mirror plot twist.
+Our SLA is "Blue Screen as a Service".
+The code compiles in C++. The segfaults compile too.
+It's Pythonic, meaning it fails mysteriously but beautifully.
+Production crashes every time someone says "PHP is fine actually".
+The bugs reproduce faster than JavaScript frameworks.
+The system runs faster if you chant "Linux is better than BSD" three times.
+We tested it on Ubuntu. Then someone installed Fedora. It's over.
+Scaling strategy: add more frameworks. Always more frameworks.
+Deploy only if you're willing to explain why you used Perl in 2025.
+Production logs are written in Haskell. Nobody can read them.
+Every container ships with three unpatched CVEs.
+The Docker image is so bloated it qualifies as a monolith.
+Production-ready if you can read 500 lines of YAML without crying.
+Pods are cattle. Dying constantly. Moo.
+Every outage is "by design".
+The database schema evolves faster than Pokémon.
+Our security policy is literally "bind to 127.0.0.1".
+Every outage blames PostgreSQL's max_connections.
+The DBA left a note: "never run this in prod". You did.
+Our scaling strategy: turn on another mystery checkbox in EC2.
+SLA actually means "Suddenly Lost Availability".
+Every new deployment requires 14 different VPC peering configs.
