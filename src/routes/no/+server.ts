@@ -15,6 +15,7 @@ export const GET: RequestHandler = async () => {
 		{ reason: randomReason },
 		{
 			headers: {
+				"Content-Type": "application/json; charset=utf-8",
 				"Cache-Control": "no-cache, no-store, must-revalidate",
 				"Access-Control-Allow-Origin": "*",
 				"Access-Control-Allow-Methods": "GET",
