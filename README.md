@@ -32,12 +32,13 @@ Besides the official website (**[https://isprodready.com](https://isprodready.co
 GET https://isprodready.com/no
 ```
 
+It returns a random reason why your product isn't ready for production. Perfect for Slack bots that need to roast your deployment, CI/CD pipelines that want to be passive-aggressive, or any situation where you need to tell someone "no" with style.
+
 Example response:
+
 ```json
 {"reason": "Your QA team called, they're still laughing."}
 ```
-
-It returns a random reason why your product isn't ready for production. Perfect for Slack bots that need to roast your deployment, CI/CD pipelines that want to be passive-aggressive, or any situation where you need to tell someone "no" with style.
 
 ## How to contribute
 

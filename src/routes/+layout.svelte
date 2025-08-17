@@ -120,7 +120,7 @@
 			color: $text-primary;
 		}
 
-		code {
+		pre {
 			display: block;
 
 			padding: 1rem;
@@ -133,10 +133,6 @@
 
 			background: #1f2937;
 			border-radius: 8px;
-		}
-
-		.code {
-			font-family: $font-monospace;
 		}
 
 		.hidden {
@@ -162,6 +158,10 @@
 		.secondary {
 			font-style: italic;
 			color: $text-secondary;
+		}
+
+		.monospace {
+			font-family: $font-monospace;
 		}
 
 		.container {
@@ -259,7 +259,7 @@
 				font-size: 1.5rem;
 			}
 
-			code {
+			pre {
 				font-size: 0.875rem;
 			}
 

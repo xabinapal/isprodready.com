@@ -7,6 +7,13 @@
 	let hasError = $state(false);
 	let isLoading = $state(true);
 
+	const apiExample = `
+		⚠️ The API has usage limits because, ironically, it's not production-ready. We're working on it... (not really)
+
+		$ curl ${ISPRODREADY_BASE_URL}/no
+		{reason: "Sure, if you enjoy 3 AM debugging sessions."})}
+	`;
+
 	async function fetchReason() {
 		reason = "";
 		hasError = false;
@@ -71,19 +78,13 @@
 		<h3>Want to integrate this wisdom into your CI/CD?</h3>
 		<p>
 			Add spice to your pipeline with
-			<a class="link code" href="{ISPRODREADY_BASE_URL}/no">{ISPRODREADY_BASE_URL}/no</a>
+			<a class="link monospace" href="{ISPRODREADY_BASE_URL}/no">{ISPRODREADY_BASE_URL}/no</a>
 		</p>
 		<p class="secondary">Because let's be honest, that's probably the answer...</p>
 	</div>
 
 	<div class="section api-example-section">
-		<code class="api-code">
-			⚠️ The API has usage limits because, ironically, it's not production-ready. We're working on it... (not really)
-			<br /><br />
-			$ curl {ISPRODREADY_BASE_URL}/no
-			<br />
-			{`{"reason": "Sure, if you enjoy 3 AM debugging sessions."}`}
-		</code>
+		<pre class="api-code">{apiExample.trim().split("\n").map((line) => line.trim()).join("\n")}</pre>
 	</div>
 </section>
 

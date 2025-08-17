@@ -1,8 +1,8 @@
 import type { RequestHandler } from "./$types";
-
 import { dev } from "$app/environment";
-import { getRandomReason } from "$lib/reasons";
+
 import { api } from "$lib/api";
+import { getRandomReason } from "$lib/reasons";
 
 export const GET: RequestHandler = api(async () => {
 	// In development, randomly throw errors to test error handling

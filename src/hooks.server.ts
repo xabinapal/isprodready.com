@@ -8,7 +8,6 @@ const opts = {
 
 	decodeEntities: true,
 	keepClosingSlash: true,
-	collapseWhitespace: true,
 	removeComments: false,
 	removeRedundantAttributes: true,
 	removeEmptyAttributes: true,
