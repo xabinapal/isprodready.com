@@ -11,7 +11,7 @@
 		⚠️ The API has usage limits because, ironically, it's not production-ready. We're working on it... (not really)
 
 		$ curl ${ISPRODREADY_BASE_URL}/no
-		{reason: "Sure, if you enjoy 3 AM debugging sessions."})}
+		{"reason": "Sure, if you enjoy 3 AM debugging sessions."}
 	`;
 
 	async function fetchReason() {
