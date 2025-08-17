@@ -52,19 +52,17 @@
 
 <div class="container">
 	<header class="content">
-		<div class="logo-section">
+		<div class="section logo-section">
 			<img src="{env['ISPRODREADY_BASE_URL']}/logo.svg" alt="IsProdReady.com Logo" />
 		</div>
 
-		<div class="title-section">
+		<div class="section title-section">
 			<h1 class="primary">IsProdReady<span class="accent">.com</span></h1>
 			<p class="tagline">The brutal truth about your product</p>
-			<div class="sponsor-section">
-				<a class="button button-secondary" href={env["ISPRODREADY_KOFI_URL"]} target="_blank">
-					<img class="kofi-icon" src="{env['ISPRODREADY_BASE_URL']}/kofi.png" alt="" />
-					Support me on Ko-Fi
-				</a>
-			</div>
+			<a class="button button-secondary" href={env["ISPRODREADY_KOFI_URL"]} target="_blank">
+				<img class="kofi-icon" src="{env['ISPRODREADY_BASE_URL']}/kofi.png" alt="" />
+				Support me on Ko-Fi
+			</a>
 		</div>
 	</header>
 
@@ -203,7 +201,8 @@
 		}
 
 		.button {
-			display: inline-block;
+			display: block;
+			width: 100%;
 
 			padding: 1rem 2rem;
 
@@ -262,6 +261,11 @@
 
 			code {
 				font-size: 0.875rem;
+			}
+
+			.button {
+				display: inline-block;
+				width: auto;
 			}
 		}
 	}
@@ -349,6 +353,14 @@
 		header.content {
 			flex-direction: row;
 			gap: 2rem;
+		}
+
+		.logo-section {
+			width: auto;
+		}
+
+		.title-section {
+			width: auto;
 		}
 
 		.tagline {
