@@ -162,6 +162,10 @@
 			color: $text-secondary;
 		}
 
+		.error {
+			color: $error-color;
+		}
+
 		.monospace {
 			font-family: $font-monospace;
 		}
@@ -176,7 +180,7 @@
 			max-width: 1200px;
 			min-height: 100vh;
 			margin: 0 auto;
-			padding: 2rem;
+			padding: 1rem;
 		}
 
 		.content {
@@ -187,7 +191,7 @@
 			gap: 1rem;
 
 			width: 100%;
-			padding: 2rem;
+			padding: 1.25rem;
 
 			background: color.adjust(white, $alpha: -0.05);
 			backdrop-filter: blur(10px);
@@ -263,6 +267,14 @@
 
 			pre {
 				font-size: 0.875rem;
+			}
+
+			.container {
+				padding: 2rem;
+			}
+
+			.content {
+				padding: 2rem;
 			}
 
 			.button {

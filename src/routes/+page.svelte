@@ -59,9 +59,8 @@
 			<div class="reason-loading">Consulting the oracle...</div>
 		{:else if hasError}
 			<div class="reason-error">
-				Oops! Even the oracle is having issues
-				<br />
-				<span class="secondary">Maybe that answers your question...</span>
+				<p class="error">Oops! Even the oracle is having issues</p>
+				<p class="secondary">Maybe that answers your question...</p>
 			</div>
 		{:else if reason}
 			<div class="reason-text">{reason}</div>
@@ -136,11 +135,6 @@
 		50% {
 			opacity: 0.5;
 		}
-	}
-
-	.reason-error {
-		font-style: italic;
-		color: $error-color;
 	}
 
 	@media (min-width: 768px), (orientation: landscape) {
