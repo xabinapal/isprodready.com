@@ -129,6 +129,8 @@
 			font-size: 0.75rem;
 			line-height: 1.5;
 			text-align: left;
+			text-wrap: wrap;
+			word-wrap: break-word;
 			color: #f9fafb;
 
 			background: #1f2937;
