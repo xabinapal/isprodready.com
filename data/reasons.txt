@@ -226,8 +226,33 @@ Pods are cattle. Dying constantly. Moo.
 Every outage is "by design".
 The database schema evolves faster than Pokémon.
 Our security policy is literally "bind to 127.0.0.1".
-Every outage blames PostgreSQL's max_connections.
+Every outage blames PostgreSQL's "max_connections".
 The DBA left a note: "never run this in prod". You did.
 Our scaling strategy: turn on another mystery checkbox in EC2.
 SLA actually means "Suddenly Lost Availability".
 Every new deployment requires 14 different VPC peering configs.
+The CI pipeline is powered by a hamster on a wheel.
+Our uptime guarantee is "as long as the coffee lasts".
+Production-ready only if you believe in miracles.
+Our rollback plan is Ctrl+Z.
+The only test coverage is a raincoat.
+The rollback plan is "we'll get to it after lunch".
+The system is as stable as a Jenga tower in an earthquake.
+Production monitoring is just a guy named Steve watching logs.
+We use AI for everything except reliability.
+Your backup strategy: hope for the best.
+The only metric we track is "number of memes per sprint".
+Incident response: reboot and pray.
+The only test suite is a single "assert(true)".
+Production support is a fortune cookie.
+The main database is a spreadsheet named "final_final_v2.xlsx".
+The only backup is a screenshot from 2017.
+Our main (and only) server is under someone's desk.
+We throw darts at our kanban to decide which issues are done.
+Our DR plan is "turn it off and on again and cross your fingers".
+The only thing continuous about our integration is the panic.
+Our API docs are just a link to the Stack Overflow home page.
+We measure latency in dog years.
+In our setup, HA means "Hoping Always".
+We use microservices, but they're all named "service1".
+The only thing that scales up is the number of TODOs in the code.

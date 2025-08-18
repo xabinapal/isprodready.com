@@ -1,3 +1,6 @@
+// Auto-generated file - do not edit manually
+// Generated from data/reasons.txt
+
 const REASONS = [
 	"This is a dummy reason. Please ignore.",
 	"Dummy reason #42: The cake is a placeholder.",

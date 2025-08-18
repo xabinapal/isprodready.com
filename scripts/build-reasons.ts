@@ -17,11 +17,11 @@ function compileFile(): void {
 	const output = `// Auto-generated file - do not edit manually
 // Generated from data/reasons.txt
 
-const REASONS = ${JSON.stringify(reasons, null, 2)};
+const REASONS = ${JSON.stringify(reasons, null, "\t")};
 
 export function getRandomReason(): string {
-  const index = Math.floor(Math.random() * REASONS.length);
-  return REASONS[index] ?? "";
+	const index = Math.floor(Math.random() * REASONS.length);
+	return REASONS[index] ?? "";
 }
 `;
 

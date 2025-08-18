@@ -14,6 +14,12 @@
 		{"reason": "Sure, if you enjoy 3 AM debugging sessions."}
 	`;
 
+	const apiExampleNormalized = apiExample
+		.trim()
+		.split("\n")
+		.map((line) => line.trim())
+		.join("\n");
+
 	async function fetchReason() {
 		reason = "";
 		hasError = false;
@@ -79,11 +85,11 @@
 			Add spice to your pipeline with
 			<a class="link monospace" href="{ISPRODREADY_BASE_URL}/no">{ISPRODREADY_BASE_URL}/no</a>
 		</p>
-		<p class="secondary">Because let's be honest, that's probably the answer...</p>
+		<p class="secondary">Let's be honest, that's probably the answer...</p>
 	</div>
 
 	<div class="section api-example-section">
-		<pre class="api-code">{apiExample.trim().split("\n").map((line) => line.trim()).join("\n")}</pre>
+		<pre class="api-code">{apiExampleNormalized}</pre>
 	</div>
 </section>
 
